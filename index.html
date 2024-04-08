@@ -95,72 +95,113 @@
 
 
         <!--Begin off camvas-->
-        <div class="container-fluid text-center" style=background-color:blue;height: 200px>
-          <div class="row">
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1 goes here</div>
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2 goes here</div>
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3 goes here</div>
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4 goes here</div>
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5 goes here</div>
-            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6 goes here</div>
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample">
+          Button with data-bs-target
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
             <div>
-              <!--End Offcanvas-->
+              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+              lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--End Offcanvas-->
 
-              <!--Begin GoogleIcons-->
-              <div class="container-fluid text-center" style=background-color:green;height: 200px>
+        <!--Begin GoogleIcons-->
+        <div class="container-fluid text-center" style=background-color:green;height: 200px>
+          <div class="row">
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1 goes here
+            </div>
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2 goes here
+            </div>
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3 goes here
+            </div>
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4 goes here
+            </div>
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5 goes here
+            </div>
+            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6 goes here
+            </div>
+            <div>
+              <!--End GoogleIcons-->
+
+              <!--Begin Navbar-->
+              <div class="container-fluid text-center" style=background-color:yellow;height: 200px>
                 <div class="row">
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1 goes here
-                  </div>
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2 goes here
-                  </div>
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3 goes here
-                  </div>
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4 goes here
-                  </div>
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5 goes here
-                  </div>
-                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6 goes here
-                  </div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1 goes
+                    here</div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2 goes
+                    here</div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3 goes
+                    here</div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4 goes
+                    here</div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5 goes
+                    here</div>
+                  <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6 goes
+                    here</div>
                   <div>
-                    <!--End GoogleIcons-->
-
-                    <!--Begin Navbar-->
-                    <div class="container-fluid text-center" style=background-color:yellow;height: 200px>
+                    <!--end navbar-->
+                    <!--Begin carousel-->
+                    <div class="container-fluid text-center" style=background-color:blueviolet;height: 200px>
                       <div class="row">
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1 goes
-                          here</div>
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2 goes
-                          here</div>
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3 goes
-                          here</div>
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4 goes
-                          here</div>
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5 goes
-                          here</div>
-                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6 goes
-                          here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1
+                          goes here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2
+                          goes here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3
+                          goes here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4
+                          goes here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5
+                          goes here</div>
+                        <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6
+                          goes here</div>
                         <div>
-                          <!--end navbar-->
-                          <!--Begin carousel-->
-                          <div class="container-fluid text-center" style=background-color:blueviolet;height: 200px>
-                            <div class="row">
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 1
-                                goes here</div>
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 2
-                                goes here</div>
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 3
-                                goes here</div>
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 4
-                                goes here</div>
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 5
-                                goes here</div>
-                              <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">Item 6
-                                goes here</div>
-                              <div>
-                              </div>
-                              <!--end carousel-->
-                              <!--Begin Font Awesome ICons-->
-                              <div class="container-fluid text-center" style=background-color:red;height: 200px>
+                        </div>
+                        <!--end carousel-->
+                        <!--Begin Font Awesome ICons-->
+                        <div class="container-fluid text-center" style=background-color:red;height: 200px>
+                          <div class="row">
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 1 goes here</div>
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 2 goes here</div>
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 3 goes here</div>
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 4 goes here</div>
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 5 goes here</div>
+                            <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
+                              Item 6 goes here</div>
+                            <div>
+                              <!--End Font Awesome Icons-->
+
+                              <!--Begin First paragraph-->
+                              <div class="container-fluid text-center" style=background-color:orange;height: 200px>
                                 <div class="row">
                                   <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                     Item 1 goes here</div>
@@ -175,10 +216,10 @@
                                   <div class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                     Item 6 goes here</div>
                                   <div>
-                                    <!--End Font Awesome Icons-->
+                                    <!--End First Paragraph-->
 
-                                    <!--Begin First paragraph-->
-                                    <div class="container-fluid text-center" style=background-color:orange;height:
+                                    <!--Begin Slick Slider-->
+                                    <div class="container-fluid text-center" style=background-color:aquamarine;height:
                                       200px>
                                       <div class="row">
                                         <div
@@ -200,11 +241,11 @@
                                           class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                           Item 6 goes here</div>
                                         <div>
-                                          <!--End First Paragraph-->
+                                          <!--End SLick Slider-->
 
-                                          <!--Begin Slick Slider-->
+                                          <!--Begin Isotope filter-->
                                           <div class="container-fluid text-center"
-                                            style=background-color:aquamarine;height: 200px>
+                                            style=background-color:chartreuse;height: 200px>
                                             <div class="row">
                                               <div
                                                 class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -225,11 +266,11 @@
                                                 class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                                 Item 6 goes here</div>
                                               <div>
-                                                <!--End SLick Slider-->
+                                                <!--End Isotope Filter-->
 
-                                                <!--Begin Isotope filter-->
+                                                <!--Begin Square font awesome-->
                                                 <div class="container-fluid text-center"
-                                                  style=background-color:chartreuse;height: 200px>
+                                                  style=background-color:brown;height: 200px>
                                                   <div class="row">
                                                     <div
                                                       class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -250,11 +291,11 @@
                                                       class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                                       Item 6 goes here</div>
                                                     <div>
-                                                      <!--End Isotope Filter-->
+                                                      <!--End Square font awesome-->
 
-                                                      <!--Begin Square font awesome-->
+                                                      <!--Begin Second paragraph-->
                                                       <div class="container-fluid text-center"
-                                                        style=background-color:brown;height: 200px>
+                                                        style=background-color:azure;height: 200px>
                                                         <div class="row">
                                                           <div
                                                             class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -275,11 +316,12 @@
                                                             class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                                             Item 6 goes here</div>
                                                           <div>
-                                                            <!--End Square font awesome-->
+                                                            <!--End Second Paragraph-->
 
-                                                            <!--Begin Second paragraph-->
+
+                                                            <!--Begin Testimonial-->
                                                             <div class="container-fluid text-center"
-                                                              style=background-color:azure;height: 200px>
+                                                              style=background-color:red;height: 200px>
                                                               <div class="row">
                                                                 <div
                                                                   class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -300,12 +342,12 @@
                                                                   class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                                                   Item 6 goes here</div>
                                                                 <div>
-                                                                  <!--End Second Paragraph-->
+                                                                  <!--End Testimonial-->
 
-
-                                                                  <!--Begin Testimonial-->
+                                                                  <!--Begin Footer-->
                                                                   <div class="container-fluid text-center"
-                                                                    style=background-color:red;height: 200px>
+                                                                    style=background-color:rgb(25, 0, 255);height:
+                                                                    200px>
                                                                     <div class="row">
                                                                       <div
                                                                         class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -326,72 +368,46 @@
                                                                         class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
                                                                         Item 6 goes here</div>
                                                                       <div>
-                                                                        <!--End Testimonial-->
+                                                                        <!--End Footer-->
 
-                                                                        <!--Begin Footer-->
-                                                                        <div class="container-fluid text-center"
-                                                                          style=background-color:rgb(25, 0, 255);height:
-                                                                          200px>
-                                                                          <div class="row">
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 1 goes here</div>
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 2 goes here</div>
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 3 goes here</div>
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 4 goes here</div>
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 5 goes here</div>
-                                                                            <div
-                                                                              class="col-6 col-xxs-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
-                                                                              Item 6 goes here</div>
+                                                                        <main>
+
+                                                                          <footer>
+                                                                            Footer goes here
+                                                                          </footer>
+
+
+                                                                          <div>
+                                                                            <!--jquery cdn-->
+                                                                            <script
+                                                                              src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+                                                                              integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA=="
+                                                                              crossorigin="anonymous"
+                                                                              referrerpolicy="no-referrer"></script>
+
+                                                                            <!--bootstrap java cdn-->
+                                                                            <script
+                                                                              src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                                                                              integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                                                                              crossorigin="anonymous"></script>
+
+                                                                            <!--Animate on Scroll AOS JS CDN-->
+                                                                            <script
+                                                                              src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+                                                                            <!--Slick Slider JS CDN-->
+                                                                            <script type="text/javascript"
+                                                                              src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+                                                                            <!--Isotope Filter JS CDN-->
+                                                                            <script
+                                                                              src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+                                                                            <!--Local JS-->
+                                                                            <script src="js/scripts.js"></script>
+
                                                                             <div>
-                                                                              <!--End Footer-->
-
-                                                                              <main>
-
-                                                                                <footer>
-                                                                                  Footer goes here
-                                                                                </footer>
-
-
-                                                                                <div>
-                                                                                  <!--jquery cdn-->
-                                                                                  <script
-                                                                                    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-                                                                                    integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA=="
-                                                                                    crossorigin="anonymous"
-                                                                                    referrerpolicy="no-referrer"></script>
-
-                                                                                  <!--bootstrap java cdn-->
-                                                                                  <script
-                                                                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                                                                                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                                                                                    crossorigin="anonymous"></script>
-
-                                                                                  <!--Animate on Scroll AOS JS CDN-->
-                                                                                  <script
-                                                                                    src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-                                                                                  <!--Slick Slider JS CDN-->
-                                                                                  <script type="text/javascript"
-                                                                                    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-                                                                                  <!--Isotope Filter JS CDN-->
-                                                                                  <script
-                                                                                    src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-
-                                                                                  <!--Local JS-->
-                                                                                  <script src="js/scripts.js"></script>
-
-                                                                                  <div>
 </body>
 
 
